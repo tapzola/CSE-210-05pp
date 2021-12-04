@@ -1,5 +1,5 @@
 from game.scripting.action import Action
-
+from game.casting.cycle import Cycle
 
 class MoveActorsAction(Action):
     """
@@ -16,6 +16,9 @@ class MoveActorsAction(Action):
             cast (Cast): The cast of Actors in the game.
             script (Script): The script of Actions in the game.
         """
+        cycle = cast.get_first_actor("cycles")
+        cycle.grow_trail(1)
+
         actors = cast.get_all_actors()
         for actor in actors:
             actor.move_next()
