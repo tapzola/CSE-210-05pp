@@ -1,6 +1,5 @@
-# Snake
-Snake is a clone of the classic game that we all used to play on our cellphones. You play this game 
-on a simulated terminal, with a textual interface.
+# Cylce
+The classic 2-Player light cycle videogame!
 
 ## Getting Started
 ---
@@ -33,4 +32,8 @@ root                    (project root folder)
 
 ## Authors
 ---
-* TODO: Add your name and email here
+* Tapelo Dube
+* Nigel Dube
+* Jarom Diaz
+* Michelle Lanuza
+* Joshua Dean
