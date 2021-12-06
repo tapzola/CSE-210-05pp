@@ -3,7 +3,7 @@ from game.casting.actor import Actor
 from game.shared.point import Point
 
 
-class Cycle(Actor):
+class Cycle_2(Actor):
     """
     A long limbless reptile.
     
@@ -56,7 +56,7 @@ class Cycle(Actor):
         y = int(constants.MAX_Y / 2)
 
         for i in range(constants.CYCLE_LENGTH):
-            position = Point(300 - i * constants.CELL_SIZE, y)
+            position = Point(600 - i * constants.CELL_SIZE, y )
             velocity = Point(1 * constants.CELL_SIZE, 0)
             text = "8" if i == 0 else "*"
             color = constants.WHITE if i == 0 else constants.BLUE

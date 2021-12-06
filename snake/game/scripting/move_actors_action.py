@@ -19,6 +19,9 @@ class MoveActorsAction(Action):
         cycle = cast.get_first_actor("cycles")
         cycle.grow_trail(1)
 
+        cycle_2 = cast.get_first_actor("cycles_2")
+        
+
         actors = cast.get_all_actors()
         for actor in actors:
             actor.move_next()
