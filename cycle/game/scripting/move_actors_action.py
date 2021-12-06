@@ -20,6 +20,7 @@ class MoveActorsAction(Action):
         cycle.grow_trail(1)
 
         cycle_2 = cast.get_first_actor("cycles_2")
+        cycle_2.grow_trail(1)
         
 
         actors = cast.get_all_actors()
